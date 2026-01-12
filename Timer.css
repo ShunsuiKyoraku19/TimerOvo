@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: cornsilk;
+}
+
+.card {
+    margin-top: 50px;
+    background-color: lightsalmon;
+    padding: 30px;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#contador {
+    font-size: 48px;
+    margin-top: 20px;
+}
+#parar {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#parar:hover {
+    background-color: #ff1a1a;
+}
+#iniciar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#iniciar:hover {
+    background-color: #45a049;
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: coral;
+}

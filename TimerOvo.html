@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Timer.css">
+    <title>Timer Ovo</title>
+</head>
+<body>
+    <h1>Timer Ovo</h1>
+    <p>Use este timer para cozinhar ovos perfeitamente!</p>
+   
+    <div class="card">
+         <label for="tempo">Selecione o tempo de cozimento:</label>
+    <select id="tempo">
+        <option value="3">3 minutos - Ovo mole</option>
+        <option value="5">5 minutos - Ovo médio</option>
+        <option value="8">8 minutos - Ovo duro</option>
+    </select>
+    <button id="iniciar">Iniciar Timer</button>
+    <h2 id="contador">00:00</h2>
+    <button id="parar">Parar Timer</button>
+    </div>
+        
+    <script src="Timer.js"></script>
+</body>
+</html>
