@@ -1,0 +1,25 @@
+{
+  "name": "timerovo",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ShunsuiKyoraku19/TimerOvo#readme",
+  "bugs": {
+    "url": "https://github.com/ShunsuiKyoraku19/TimerOvo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShunsuiKyoraku19/TimerOvo.git"
+  },
+  "license": "ISC",
+  "author": "Maxwell Lucas",
+  "type": "commonjs",
+  "main": "Timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.16.0"
+  }
+}
